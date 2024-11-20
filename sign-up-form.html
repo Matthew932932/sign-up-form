@@ -9,16 +9,14 @@
 <body>
     <div class="main-cont">
         <div class="img-logo-sect">
-            <div class="leaf-div">
+            <!-- <div class="leaf-div"> -->
                 <img class="leafy-boy"
                     src="./images/halie-west-25xggax4bSA-unsplash-sml.jpg"
                     alt="leafy boy background image" />
-            </div>
-            <div class="odin-logo-background">
-                <!-- huh -->
-            </div>
-            <div class="odin-logo">
-                <img src="./images/odin-lined.png" alt="odin logo">
+            <!-- </div> -->
+            <div class="odin-logo-sect">    
+                <img class="odin-logo" src="./images/odin-lined.png" alt="odin logo">
+                <p id="odin-logo-text">ODIN</p>
             </div>
             <div class="credit-sect">
             Photo by <a class="photo-cred" href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on 
@@ -27,32 +25,64 @@
         </div>
 
         <div class="form-sect">
-            <div class="comment-section">
-                <h1 class="comment-reply-title">Write your comment!</h1>
-                <form id="commentform" class="comment-form">
-                    <div class="comment-form-name">
-                        <input id="name" placeholder="Name *" name="name" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
-                        <label for="name" data-help="¿Are you 11 from Stranger Things?">Name</label>
+            <div class="top-text">
+                <h2 class="top-text-h">This is not a real online service! You know you need something
+                like this in your real life to help you realise your deepest dreams.
+                Sign up now to get started.</h2>
+                <h2 class="top-text-h">You know you want to.</h2>
+            </div>
+
+            <div class="sign-section">
+                
+                <form id="signform" class="sign-form">
+                    
+                    <h2 class="sign-title">Let's do this!</h2>
+
+                    <div class="inputs">
+                        <div class="inputs-row1 row">
+                            <div class="sign-form-name">
+                                <label for="name">Name</label>
+                                <input id="name" placeholder="Name *" name="name" type="text" value="" size="30" maxlength="245" required>
+                                
+                            </div>
+                            <div class="sign-form-surname">
+                                <label for="surname">Surname</label>
+                                <input id="surname" placeholder="Surname *" name="surname" type="text" value="" size="30" maxlength="245" required>
+                                
+                            </div>
+                        </div>
+
+                        <div class="inputs-row2 row">
+                            <div class="sign-form-email">
+                                <label for="email">Email</label>
+                                <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100"  required>
+                                
+                            </div>
+                            <div class="sign-form-phone">
+                                <label for="phone">Phone</label>
+                                <input id="phone" placeholder="Phone number *" name="phone" type="text" value="" size="30" maxlength="100"  required>
+                                
+                            </div>
+                        </div>
+                        <div class="inputs-row3 row">
+                            <div class="sign-form-password1">
+                                <label for="pwd">Password</label>
+                                <input type="password" id="pwd" name="pwd" size="30" maxlength="100"  required/>
+                                
+                            </div>
+
+                            <div class="sign-form-password1">
+                                <label for="pwdc">Confirm Password</label>
+                                <input type="password" id="pwdc" name="pwdc" size="30" maxlength="100"  required/>
+                                
+                            </div>
+                        </div>
                     </div>
-                    <div class="comment-form-surname">
-                        <input id="surname" placeholder="Surname *" name="surname" type="text" value="" size="30" maxlength="245" required>
-                        <label for="surname" data-help="A girl has no name- Arya Stark">Surname</label>
-                    </div>
-                    <div class="comment-form-email">
-                        <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required>
-                        <label for="email" data-help="Format email@email.com">Email</label>
-                    </div>
-                    <div class="comment-form-url">
-                        <input id="url" placeholder="Website" name="url" type="url" value="" size="30" maxlength="200">
-                        <label for="url" data-help="Should start with http:// o https://">Website</label>
-                    </div>
-                    <div class="comment-form-comment">
-                        <textarea textarea="" placeholder="Comment *" id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea>
-                        <label for="comment" data-help="Escribe algo! Lo primero que se te ocurra">Comment</label>
-                    </div>
+
                     <div class="form-submit">
-                        <input name="submit" type="submit" id="submit" class="submit" value="Post Comment">
+                        <input name="submit" type="submit" id="submit" class="submit" value="Create Account" width="18">
                     </div>
+
                 </form>
             </div>
 
@@ -66,4 +96,23 @@
 
 </body>
 </html>
+
+
+<!-- <div class="img-logo-sect"> -->
+    <!-- <div class="leaf-div"> -->
+        <!-- <img class="leafy-boy"
+            src="./images/halie-west-25xggax4bSA-unsplash-sml.jpg"
+            alt="leafy boy background image" /> -->
+    <!-- </div> -->
+    <!-- <div class="odin-logo-background"> -->
+        <!-- huh -->
+    <!-- </div>
+    <div class="odin-logo">
+        <img src="./images/odin-lined.png" alt="odin logo">
+    </div>
+    <div class="credit-sect">
+    Photo by <a class="photo-cred" href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on 
+    <a class="photo-cred" href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>   
+    </div>
+</div> -->
 
